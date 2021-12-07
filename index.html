@@ -20,47 +20,61 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
+        <div class="top">
+            <div class="left">
+                <form>
+                    <label>
+                        Question
+                        <input name="booger-question"/>
+                    </label>
+                    <label>
+                        Option A  
+                        <input name="booger-option-a"/>
+                    </label>
+                    <label>
+                        Option B 
+                        <input name="booger-option-b"/>
+                    </label>
+                        
+                    <button>Start Poll</button>
+                </form>
+                <div>
+                    <div>
+                        <div>
+                            <button id="option-a-add">Vote Option A</button>
+                            <button id="option-b-add">Vote Option B</button>
+                        </div>
+                        <div>
+                            <button id="option-a-undo">Undo Option A</button>
+                            <button id="option-b-undo">Undo Option B</button>
+                        </div>
+                    </div>
+                    <button id="close-poll">Close Poll</button>
+                </div>
+                </div>
+                <div class="right">
+                    <p>Current Poll</p>
+                    <p id="poll-question"></p>
+                    <div class="options">
+                        <div id="option-a">
+                            <p id="option-a-title"></p>
+                            <p id="option-a-votes"></p>
+                        </div>
+                        <div id="option-b">
+                            <p id="option-b-title"></p>
+                            <p id="option-b-votes"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <h3>Past Polls</h3>
+                <div class="past-polls">
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
+                </div>
+            </div>
+        </div>
+        
         </section>
     </main>
     <footer>
